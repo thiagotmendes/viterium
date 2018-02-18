@@ -23,7 +23,7 @@ class TabelaImoveisSite extends Migration
             $table->string('cidade')->nullable();
             $table->string('estado')->nullable();
             $table->string('bairro')->nullable();
-            $table->integer('numero')->nullable();
+            $table->string('numero')->nullable();
             $table->string('complemento')->nullable();
             $table->string('preco')->nullable(); // poderia ser string e no momento de realizar alguma operação usaria um floatval para converter em float
             $table->string('finalidade')->nullable(); // se venda, locação ou temporada
