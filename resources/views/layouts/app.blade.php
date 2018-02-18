@@ -96,6 +96,7 @@
     <script src="{{ asset('js/jquery.dataTables.js') }}"></script>
     <script src="{{ asset('js/dataTables.bootstrap.js') }}" charset="utf-8"></script>
     <script src="{{ asset('js/jquery.maskedinput.js') }}" charset="utf-8"></script>
+    <script src="{{ asset('js/jquery.maskMoney.js') }}" charset="utf-8"></script>
     <script src="{{ asset('js/viacep.js') }}" charset="utf-8"></script>
     <script src="{{ asset('js/funcoes.js') }}" charset="utf-8"></script>
 
