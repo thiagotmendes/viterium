@@ -25,9 +25,9 @@ class TabelaImoveisSite extends Migration
             $table->string('bairro')->nullable();
             $table->integer('numero')->nullable();
             $table->string('complemento')->nullable();
-            $table->float('preco',8,2)->nullable(); // poderia ser string e no momento de realizar alguma operação usaria um floatval para converter em float
+            $table->string('preco')->nullable(); // poderia ser string e no momento de realizar alguma operação usaria um floatval para converter em float
             $table->string('finalidade')->nullable(); // se venda, locação ou temporada
-            $table->float('tamanho',8,2)->nullable();
+            $table->string('tamanho')->nullable();
             $table->integer('dormitorio')->nullable();  // quantidade no imovél
             $table->integer('suite')->nullable();       // quantidade no imovél
             $table->integer('banheiro')->nullable();    // quantidade no imovél
