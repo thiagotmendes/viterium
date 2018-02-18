@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Este é um sistema de teste
+                  Obrigado pela oportunidade.
                 </div>
             </div>
         </div>
