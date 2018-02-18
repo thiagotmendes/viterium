@@ -8,13 +8,8 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                  Olá, o sistema tem duas áreas, um formulário de inserção de imóvel e um fomrulário
+                  para inserção do link xml dos imóveis
                 </div>
             </div>
         </div>
